@@ -4,6 +4,11 @@ This repository will walk you through the process of quickly getting started usi
 
 This branch uses MongoDB 4.4, MongoDB Node.js Driver 3.6.4, and Node.js 14.15.4. To see an earlier version that uses MongoDB 4.0, MongoDB Node.js Driver 3.3.2, and Node.js 10.16.3, visit the [3.3.2 branch](https://github.com/mongodb-developer/nodejs-quickstart/tree/3.3.2).
 
+## Setup
+nvm use 14
+npm install mongodb
+
+
 ## Topics
 
 * How to get connected to your database: [blog post](https://developer.mongodb.com/quickstart/node-connect-mongodb/) | [code example](connection.js)
